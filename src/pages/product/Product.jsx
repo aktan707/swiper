@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router";
 import Slider from "../../slider/Slider.jsx";
+import Banner from "../../banner/Banner.jsx";
 
 const Product = () => {
   const {id} = useParams()
